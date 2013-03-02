@@ -1,0 +1,12 @@
+{
+    "name": "ecspat-acg",
+    "version": "0.1.0",
+    "author": "Max Schaefer <schaefer@ntu.edu.sg>",
+    "description": "Approximate call graph builder for JavaScript",
+    "dependencies" : {
+	"amdefine": "*",
+	"argparse": "*",
+	"esprima": "*"
+    },
+    "license": "Eclipse"
+}
