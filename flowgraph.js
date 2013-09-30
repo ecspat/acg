@@ -89,7 +89,8 @@ define(function(require, exports) {
           flow_graph.addEdge(vertexFor(nd.init), vertexFor(nd.id));
         break;
       case 'WithStatement':
-        throw new Error("'with' statement not supported");
+        console.warn("'with' statement ignored");
+        break;
       }
     });
     return flow_graph;
